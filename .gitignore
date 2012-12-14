@@ -1,0 +1,10 @@
+layout
+notes
+*.swp
+*~
+*.diff
+*.patch
+.DS_Store
+dist
+build/dist
+node_modules

@@ -1,0 +1,42 @@
+.jqtooltip {
+	background-color: #000000;
+	border-radius: 3px;
+	color: #FFFFFF;
+	font: 13px sans-serif;
+	height: 15px;
+	opacity: 0.75;
+	padding: 5px 8px;
+	position: absolute;
+	text-align: center;
+}
+.jqt-arrow {
+	position: absolute;
+	width: 0;
+}
+.top .jqt-arrow {
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	border-top: 5px solid #000;
+	bottom: -5px;
+}
+.bottom .jqt-arrow {
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-bottom: 6px solid #000;
+  top: -6px;
+}
+.left .jqt-arrow {
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-left: 6px solid #000;
+  right: -6px;
+}
+.right .jqt-arrow {
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-right: 6px solid #000;
+  left: -6px;
+}
+.hide {
+	visibility: hidden;
+}

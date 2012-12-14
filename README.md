@@ -1,4 +1,4 @@
-Simple Tooltips
+Self Positioning Tooltips
 ==========
 
-Simple tooltips using jquery for animations.
+Basic tooltips using jquery that auto position.
